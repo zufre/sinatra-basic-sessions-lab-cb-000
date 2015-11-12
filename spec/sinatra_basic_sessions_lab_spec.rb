@@ -1,11 +1,9 @@
-equire 'spec_helper'
+require 'spec_helper'
 
 describe 'App' do
   
   describe "GET '/'" do
-    before(:each) do
-      get '/'
-    end
+ 
     
     it "returns a 200 status code" do
       get '/'
@@ -14,12 +12,13 @@ describe 'App' do
 
 
     it "sets session[:name] equal to your name" do
-      
+    get '/'
       expect(session.has_key?(:name)).to eq(true)
     end
 
 
    it "says Hello in the view" do
+      get '/'
       expect(last_response.body).to include("Hello, ")
     end
 
