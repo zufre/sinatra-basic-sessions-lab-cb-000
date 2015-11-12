@@ -1,5 +1,7 @@
 tags:
-  - tag1
+  - sinatra
+  - sessions
 languages:
-  - language1
-resources: 0
+  - ruby
+type
+  - lab
