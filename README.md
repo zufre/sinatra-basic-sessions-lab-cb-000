@@ -21,10 +21,9 @@ Set up a controller action that responds to a GET request to the route `'/'`. Yo
 
 ### Step 3:
 
-In the controller action to `'/'`, add a key-value pair to `session`. The key should be `[:name]` and the value should be your name.
+In the controller action to `'/'`, add a key-value pair to `session`. The key should be `:name` and the value should be your name.
 
 Make sure to store the session hash in an instance variable that you can access in the views
-
 
 ### Step 4:
 
