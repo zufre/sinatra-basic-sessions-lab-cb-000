@@ -29,3 +29,5 @@ Make sure to store the session hash in an instance variable that you can access 
 
 In the view rendered by your controller action, have your name, stored in the session hash, appear in the top right corner of the page, `Hello, ___`.
 
+
+<a href='https://learn.co/lessons/sinatra-basic-sessions-lab' data-visibility='hidden'>View this lesson on Learn.co</a>
