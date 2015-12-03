@@ -32,7 +32,7 @@ The controller action  `/checkout`, should take the params from the form and add
 Make sure to store the session hash in an instance variable that you can access in the views
 
 
-### Step 4:
+### Step 5:
 
 In the view rendered by the controller action, display the item the user entered to purchase.
 
