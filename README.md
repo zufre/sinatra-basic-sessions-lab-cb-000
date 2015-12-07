@@ -8,26 +8,17 @@ The goal of this lab is to save a piece of data to the `session cookie`, and dis
 
 Sessions are commonly used to store data for online shopping. In this lab, you'll be storing an item a user is buying from page to page.
 
-## Get Building
+## Instructions
 
 You'll be coding your solution in both `app.rb` and `views`.
 
+1. Make sure you enable sessions in `app.rb` and set a `session_secret`.
 
-### Step 1:
+2. Set up a controller action that responds to a GET request to the route `'/'`. You'll want this action to render an erb file,` index.erb`
 
-Make sure you enable sessions in `app.rb` and set a `session_secret`.
+3.`index.erb` should contain a form with text field. Here, the user will enter an item to purchase. The form should post to the action `/checkout`.
 
-### Step 2: 
-
-Set up a controller action that responds to a GET request to the route `'/'`. You'll want this action to render an erb file,` index.erb`
-
-### Step 3:
-
-`index.erb` should contain a form with text field. Here, the user will enter an item to purchase. The form should post to the action `/checkout`.
-
-
-### Step 4:
-The controller action  `/checkout`, should take the params from the form and add it to the session hash. The key should be `item` and the value should be the item the user entered to the purchase.
+4. The controller action  `/checkout`, should take the params from the form and add it to the session hash. The key should be `item` and the value should be the item the user entered to the purchase.
 
 Make sure to store the session hash in an instance variable that you can access in the views
 
