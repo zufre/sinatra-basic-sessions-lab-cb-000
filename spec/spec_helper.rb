@@ -13,6 +13,7 @@ def app
 end
 
 Capybara.app = app
+
 def session
   last_request.env['rack.session']
 end
