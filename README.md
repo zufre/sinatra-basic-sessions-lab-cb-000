@@ -27,3 +27,5 @@ Make sure to store the session hash in an instance variable that you can access 
 
 In the view rendered by the controller action, display the item the user entered to purchase.
 
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/sinatra-basic-sessions-lab' title='Sinatra Basic Sessions Lab'>Sinatra Basic Sessions Lab</a> on Learn.co and start learning to code for free.</p>
