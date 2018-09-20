@@ -6,8 +6,13 @@ class App < Sinatra::Base
     set :session_secret, "123456"
   end
   get '/' do
-    session[:item] = params[:item]
-    @cart =  session[:item]
+
     erb :index
   end
+  post '/checkout' do
+    session[:item] = params[:item]
+    @cart =  session[:]
+    erb :cart
+  end
+
 end
